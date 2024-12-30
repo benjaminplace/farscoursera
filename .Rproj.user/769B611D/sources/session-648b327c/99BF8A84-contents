@@ -1,0 +1,21 @@
+---
+title: "Analysis of NHTSA Fatality Analysis Reporting System (FARS)"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Analysis of NHTSA Fatality Analysis Reporting System (FARS)}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(farscoursera)
+```
+
+To access the external data files directly, use the `system.file` function with the specified year, for example: `system.file("extdata", "accident_2015.csv.bz2", package = "farscoursera")` will access the 2015 FARS data.

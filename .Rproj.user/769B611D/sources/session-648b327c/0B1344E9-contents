@@ -1,0 +1,16 @@
+Package: farscoursera
+Type: Package
+Title: Analysis of NHTSA Fatality Analysis Reporting System (FARS)
+Version: 0.1.0
+Imports: dplyr, graphics, maps, readr, tidyr
+Author: B. Place <benjamin.place@nist.gov>
+Maintainer: B. Place <benjamin.place@nist.gov>
+Description: As part of the Coursera course, this is a test R package for the analysis of NHTSA FARS data.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2

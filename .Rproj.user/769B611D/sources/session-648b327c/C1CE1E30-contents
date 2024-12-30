@@ -1,0 +1,7 @@
+export(farscoursera)
+
+import(dplyr)
+import(maps)
+
+importFrom("readr", "read_csv")
+importFrom("graphics", "points")
